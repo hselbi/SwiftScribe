@@ -1,12 +1,12 @@
 // App.js
-import React, { useState, useEffect } from "react";
-import "./App.css";
+import React, { useEffect, useState } from "react";
 import {
+  FaExclamationCircle,
   FaKeyboard,
   FaRedo,
   FaTrophy,
-  FaExclamationCircle,
 } from "react-icons/fa";
+import "./App.css";
 
 const DIFFICULTY_SETTINGS = {
   noob: { time: 60, label: "Noob", minWPM: 0, maxWPM: 30 },
